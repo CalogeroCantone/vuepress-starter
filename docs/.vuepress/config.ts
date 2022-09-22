@@ -11,6 +11,7 @@ import mermaidPlugin from 'vuepress-plugin-mermaidjs'
 
 
 export default defineUserConfig({
+  base: "/vuepress-starter/",
   lang: 'en-US',
   title: 'Calogero VuePress Test',
   description: 'A test of VuePress',
