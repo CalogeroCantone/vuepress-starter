@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/mermaid": "^9.1.0",
     "@vue/component-compiler-utils": "^3.3.0",
