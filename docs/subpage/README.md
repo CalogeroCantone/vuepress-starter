@@ -10,4 +10,4 @@ This is the first page.
 
 ## {{ $frontmatter.lang }}
 
-This is the first page.
+This is the first page. And also my last.
