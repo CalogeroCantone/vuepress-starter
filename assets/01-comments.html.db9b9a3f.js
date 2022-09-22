@@ -1,0 +1,27 @@
+import{_ as t,r as o,o as c,c as p,a as s,b as i,e as a,d as n}from"./app.8c9586a1.js";const l={},r=a('<h1 id="comments" tabindex="-1"><a class="header-anchor" href="#comments" aria-hidden="true">#</a> Comments</h1><p><strong>RFC NUM</strong>: 02-01</p><h2 id="summary" tabindex="-1"><a class="header-anchor" href="#summary" aria-hidden="true">#</a> Summary</h2><p>The BubblePod comment standard.</p><h2 id="content" tabindex="-1"><a class="header-anchor" href="#content" aria-hidden="true">#</a> Content</h2><p>All code must be documented. The default language is English.</p>',6),d=n("Use the standard "),u={href:"https://jsdoc.app/",target:"_blank",rel:"noopener noreferrer"},m=n("JSDoc"),k=n(" syntax."),v=a(`<p>Template:</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token doc-comment comment">/**
+ * What function do.
+ *
+ * <span class="token keyword">@author</span> %name% %surname&gt; &lt;%email%&gt;
+ * <span class="token keyword">@throws</span> <span class="token class-name"><span class="token punctuation">{</span>%ExceptionType%<span class="token punctuation">}</span></span> When append this exception.
+ * <span class="token keyword">@param</span> %paramName% What is this parameter.
+ * <span class="token keyword">@returns</span> What the function returns.
+ */</span>
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">findOne</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">id</span><span class="token operator">:</span> string</span><span class="token punctuation">)</span><span class="token operator">:</span> Promise<span class="token operator">&lt;</span>UserDocument<span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">NotFoundException</span><span class="token punctuation">(</span><span class="token string">&quot;...&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Example:</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token doc-comment comment">/**
+ * Find and return the User with a specific id.
+ *
+ * <span class="token keyword">@author</span> Calogero Cantone &lt;calogero.cantone.work@gmail.com&gt;
+ * <span class="token keyword">@throws</span> <span class="token class-name"><span class="token punctuation">{</span>NotFoundException<span class="token punctuation">}</span></span> If not exist a user with the specified id.
+ * <span class="token keyword">@param</span> <span class="token parameter">id</span> The id of the User to retrieve.
+ * <span class="token keyword">@returns</span> The User with the specified id.
+ */</span>
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">findOne</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">id</span><span class="token operator">:</span> string</span><span class="token punctuation">)</span><span class="token operator">:</span> Promise<span class="token operator">&lt;</span>UserDocument<span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">NotFoundException</span><span class="token punctuation">(</span><span class="token string">&quot;...&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>Tip</strong>: In case of functions/methods, you can use the vscode autocompletion simply writing <code>/**</code> and <code>ENTER</code>.</p><h2 id="authors" tabindex="-1"><a class="header-anchor" href="#authors" aria-hidden="true">#</a> Authors</h2><ol><li><ul><li>Full Name: Calogero Cantone</li><li>Email: calogero.cantone.work@gmail.com</li><li>Role: CIO</li></ul></li></ol>`,7);function h(b,g){const e=o("ExternalLinkIcon");return c(),p("div",null,[r,s("p",null,[d,s("a",u,[m,i(e)]),k]),v])}const y=t(l,[["render",h],["__file","01-comments.html.vue"]]);export{y as default};

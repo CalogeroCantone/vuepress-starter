@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,d as n}from"./app.8c9586a1.js";const o={},r=e("h1",{id:"_04-project-managment",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_04-project-managment","aria-hidden":"true"},"#"),n(" 04 - Project Managment")],-1),s=[r];function _(d,i){return a(),c("div",null,s)}const h=t(o,[["render",_],["__file","READMD.html.vue"]]);export{h as default};
